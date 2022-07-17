@@ -1,2 +1,2 @@
-# NG_Landing
-Landing page da NG.CASH.
+# NG.Landing
+#### © NG.CASH SERVIÇOS FINANCEIROS LTDA. | CNPJ 40.940.251/0001-70
