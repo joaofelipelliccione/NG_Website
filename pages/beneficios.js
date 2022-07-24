@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Benefits.module.css';
+import styles from '../styles/benefits.module.css';
 
 export default function Benefits() {
   return (

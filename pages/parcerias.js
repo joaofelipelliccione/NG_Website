@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Partnerships.module.css';
+import styles from '../styles/partnerships.module.css';
 
 export default function Partnerships() {
   return (
