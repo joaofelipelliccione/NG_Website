@@ -7,15 +7,9 @@
   width: 100%;
   position: fixed;
   z-index: 1;
-  padding: 1% 0;
+  padding: 1% 2%;
 }
 
-.ngLogo img {
-  width: 100px;
-  margin-left: 20px;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-name: slideInFromLeft;
+.jfBtn {
+  background-color: red;
 }
