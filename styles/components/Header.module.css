@@ -34,7 +34,7 @@
 
 .headerHamburgerBtn {
   background-color: var(--black);
-  color: green;
+  color: var(--white);
   border: none;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@
 
 .headerCloseBtn {
   background-color: var(--black);
-  color: red;
+  color: var(--white);
   border: none;
   display: flex;
   align-items: center;
