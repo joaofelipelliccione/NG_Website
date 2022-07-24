@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import ngLogo from '../assets/logo_ng_cash.gif';
+import HeaderHamburger from './HeaderHamburger';
 import styles from '../styles/components/Header.module.css';
 
 const ngLogoStyle = {
@@ -12,6 +13,12 @@ const ngLogoStyle = {
 };
 
 export default function Header() {
+  const [isHambContentOpen, setIsHambContentOpen] = React.useState(false);
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <header className={ styles.mobileHeader }>
       <Image
@@ -22,7 +29,10 @@ export default function Header() {
         height="95px"
         style={ ngLogoStyle }
       />
-      <span className={ styles.jfBtn }>Botão</span>
+      <HeaderHamburger
+        isHambContentOpen={ isHambContentOpen }
+        setIsHambContentOpen={ setIsHambContentOpen }
+      />
     </header>
   );
 }

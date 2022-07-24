@@ -1,5 +1,5 @@
 .mobileHeader {
-  border: solid 2px ghostwhite;
+  /* border: solid 1px ghostwhite; */
   background-color: var(--black);
   display: flex;
   justify-content: space-between;
@@ -7,9 +7,52 @@
   width: 100%;
   position: fixed;
   z-index: 1;
-  padding: 1% 2%;
+  padding: 1% 3%;
 }
 
-.jfBtn {
-  background-color: red;
+.headerHamburgerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+#headerButtonFlipper {
+  transition: .3s cubic-bezier(.775, .07, .575, .995);
+  transform-style: preserve-3d;
+  position: absolute;
+}
+
+#headerButtonFlipper svg {
+  width: 22px;
+  height: 22px;
+}
+
+.openMenu {
+  transform: rotateX(180deg);
+}
+
+.headerHamburgerBtn {
+  background-color: var(--black);
+  color: green;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  backface-visibility: hidden;
+  z-index: 2;
+  transform: rotateX(0deg);
+  position: absolute;
+}
+
+.headerCloseBtn {
+  background-color: var(--black);
+  color: red;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  backface-visibility: hidden;
+  transform: rotateX(-180deg);
+  position: relative;
 }
