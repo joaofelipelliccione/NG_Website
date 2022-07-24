@@ -1,4 +1,21 @@
 .mobileHeader {
-  background-color: var(--white);
-  padding: 2%;
+  border: solid 2px ghostwhite;
+  background-color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding: 1% 0;
+}
+
+.ngLogo img {
+  width: 100px;
+  margin-left: 20px;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInFromLeft;
 }
