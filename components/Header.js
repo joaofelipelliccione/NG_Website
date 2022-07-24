@@ -20,7 +20,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={ styles.mobileHeader }>
+    <header className={ styles.header }>
       <Image
         className={ styles.ngLogo }
         src={ ngLogo }
