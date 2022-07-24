@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/security.module.css';
+import styles from '../styles/pages/security.module.css';
 
 export default function Security() {
   return (

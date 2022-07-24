@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/help.module.css';
+import styles from '../styles/pages/help.module.css';
 
 export default function Help() {
   return (
