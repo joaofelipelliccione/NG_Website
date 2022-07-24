@@ -3,8 +3,8 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <h1 className={ styles.helloWorld }>
-      Olá Mundo!
-    </h1>
+    <main className={ styles.homePage }>
+      <h1>Olá Home!</h1>
+    </main>
   );
 }
