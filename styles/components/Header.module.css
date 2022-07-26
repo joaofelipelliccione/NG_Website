@@ -1,11 +1,11 @@
 .header {
-  /* border: solid 1px ghostwhite; */
+  border: solid 1px ghostwhite;
   background-color: var(--black);
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   z-index: 1;
   padding: 1% 3%;
 }

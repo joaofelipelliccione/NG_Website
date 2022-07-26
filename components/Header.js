@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Image from 'next/image';
 import ngLogo from '../assets/logo_ng_cash.gif';
 import HeaderHamburger from './HeaderHamburger';
@@ -12,9 +13,7 @@ const ngLogoStyle = {
   animationName: 'slideInFromLeft',
 };
 
-export default function Header() {
-  const [isHambContentOpen, setIsHambContentOpen] = React.useState(false);
-
+export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -36,3 +35,8 @@ export default function Header() {
     </header>
   );
 }
+
+Header.propTypes = {
+  isHambContentOpen: PropTypes.bool.isRequired,
+  setIsHambContentOpen: PropTypes.func.isRequired,
+};

@@ -1,4 +1,4 @@
-export default headerPaths = [
+const headerPaths = [
   {
     name: 'Benefícios',
     passHrefProp: false,
@@ -30,3 +30,5 @@ export default headerPaths = [
     path: '/partnerships',
   },
 ];
+
+export default headerPaths;

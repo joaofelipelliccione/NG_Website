@@ -1,0 +1,19 @@
+.mobileNavbar {
+  border: solid 1px yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: flex-end;
+  width: fit-content;
+  position: absolute;
+  margin-top: 7rem;
+  margin-right: 6vw;
+  z-index: 2;
+  padding: 1%;
+}
+
+@media screen and (min-width: 767px) {
+  .mobileNavbar {
+    display: none;
+  }
+}
