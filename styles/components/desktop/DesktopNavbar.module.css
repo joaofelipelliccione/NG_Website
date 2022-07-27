@@ -1,5 +1,21 @@
 .desktopNavbar {
-  background-color: pink;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   width: 80%;
+}
+
+.desktopNavbar button {
+  background-color: black;
+  border: none;
+  color: var(--white);
+  height: fit-content;
+  width: fit-content;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.desktopNavbar button:hover {
+  color: var(--purple);
+  cursor: pointer;
 }

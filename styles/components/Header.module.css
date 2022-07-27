@@ -1,5 +1,4 @@
 .header {
-  border: solid 1px ghostwhite;
   background-color: var(--black);
   display: flex;
   justify-content: space-between;
@@ -58,18 +57,18 @@
 }
 
 .desktopNavbarContainer {
-  border: solid 2px blue;
   display: flex;
-  width: 80%;
+  justify-content: space-evenly;
+  width: 70%;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 1080px) {
   .headerHamburgerContainer {
     display: none;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1080px) {
   .desktopNavbarContainer {
     display: none;
   }
