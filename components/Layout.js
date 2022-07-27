@@ -13,7 +13,7 @@ export default function Layout({ children }) {
         isHambContentOpen={ isHambContentOpen }
         setIsHambContentOpen={ setIsHambContentOpen }
       />
-      {!isHambContentOpen && <MobileNavBar />}
+      {isHambContentOpen && <MobileNavBar />}
       { children }
     </div>
   );
