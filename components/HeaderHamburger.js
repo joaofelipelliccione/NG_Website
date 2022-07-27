@@ -6,15 +6,6 @@ import styles from '../styles/components/Header.module.css';
 export default function HeaderHamburger({ isHambContentOpen, setIsHambContentOpen }) {
   // REF: https://codepen.io/diegotorres/pen/WxaxKo
 
-  const onClickHeaderHamburger = () => {
-    if (isHambContentOpen === true) {
-      setIsHambContentOpen(false);
-    }
-    if (isHambContentOpen === false) {
-      setIsHambContentOpen(true);
-    }
-  };
-
   return (
     <div className={ styles.headerHamburgerContainer }>
       <div
@@ -24,14 +15,14 @@ export default function HeaderHamburger({ isHambContentOpen, setIsHambContentOpe
         <button
           className={ styles.headerHamburgerBtn }
           type="button"
-          onClick={ () => onClickHeaderHamburger() }
+          onClick={ () => setIsHambContentOpen(true) }
         >
           <AiOutlineMenu />
         </button>
         <button
           className={ styles.headerCloseBtn }
           type="button"
-          onClick={ () => onClickHeaderHamburger() }
+          onClick={ () => setIsHambContentOpen(false) }
         >
           <AiOutlineClose />
         </button>
