@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import ngLogo from '../assets/logo_ng_cash.gif';
 import HeaderHamburger from './HeaderHamburger';
+import DesktopNavbar from './desktop/DesktopNavbar';
 import styles from '../styles/components/Header.module.css';
 
 const ngLogoStyle = {
@@ -38,6 +39,10 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
         isHambContentOpen={ isHambContentOpen }
         setIsHambContentOpen={ setIsHambContentOpen }
       />
+      <div className={ styles.desktopNavbarContainer }>
+        <DesktopNavbar />
+        <span>Baixar App</span>
+      </div>
     </header>
   );
 }

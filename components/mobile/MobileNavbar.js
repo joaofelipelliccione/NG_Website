@@ -2,8 +2,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
-import headerPaths from '../data/headerPaths';
-import styles from '../styles/components/MobileNavbar.module.css';
+import headerPaths from '../../data/headerPaths';
+import styles from '../../styles/components/mobile/MobileNavbar.module.css';
 
 export default function MobileNavBar({ isHambContentOpen, setIsHambContentOpen }) {
   const dropdownRef = React.useRef(null);

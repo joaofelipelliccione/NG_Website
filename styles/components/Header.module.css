@@ -56,3 +56,21 @@
   transform: rotateX(-180deg);
   position: relative;
 }
+
+.desktopNavbarContainer {
+  border: solid 2px blue;
+  display: flex;
+  width: 80%;
+}
+
+@media screen and (min-width: 767px) {
+  .headerHamburgerContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .desktopNavbarContainer {
+    display: none;
+  }
+}
