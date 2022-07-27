@@ -7,17 +7,17 @@ const headerPaths = [
   {
     name: 'Tarifas',
     passHrefProp: false,
-    path: '/fees',
+    path: '/tarifas',
   },
   {
     name: 'Ajuda',
     passHrefProp: false,
-    path: '/help',
+    path: '/ajuda',
   },
   {
     name: 'Segurança',
     passHrefProp: false,
-    path: '/security',
+    path: '/seguranca',
   },
   {
     name: 'Carreiras',
@@ -27,7 +27,7 @@ const headerPaths = [
   {
     name: 'Parcerias',
     passHrefProp: false,
-    path: '/partnerships',
+    path: '/parcerias',
   },
 ];
 
