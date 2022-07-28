@@ -1,4 +1,24 @@
-.homePage {
-  background-color: var(--green);
-  padding: 2%;
+.homepageMain {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.homepageFirstSection {
+  background-image: url(../../assets/mobile/index/index_mob_1st_cover.svg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage1stTitle {
+  border: solid 2px red;
+  align-self: center;
+  width: 60vw;
+  margin-right: 20px;
+  margin-top: 40%;
+}
+
+.homepageSecondSection {
+  background-color: green;
 }

@@ -28,11 +28,10 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
         passHref={ false }
       >
         <Image
-          className={ styles.ngLogo }
           src={ ngLogo }
           alt="Logo NG.CASH"
-          width="95px"
-          height="95px"
+          width={ 95 }
+          height={ 95 }
           style={ ngLogoStyle }
         />
       </Link>
