@@ -5,7 +5,7 @@
 }
 
 .homepageFirstSection {
-  background-image: url(../../assets/mobile/index/index_mob_1st_cover.svg);
+  background-image: url(../../assets/mobile/home/home_mob_1st_cover.svg);
   background-size: cover;
   display: flex;
   flex-direction: column;

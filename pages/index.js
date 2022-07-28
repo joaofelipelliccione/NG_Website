@@ -1,6 +1,6 @@
 import React from 'react';
 import Img from '../components/Img';
-import indexMob1stTitle from '../assets/mobile/index/index_mob_1st_title.svg';
+import homeMob1stTitle from '../assets/mobile/home/home_mob_1st_title.svg';
 import styles from '../styles/pages/home.module.css';
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
       <section className={ styles.homepageFirstSection }>
         <Img
           imgClassName={ styles.homepage1stTitle }
-          imgSrc={ indexMob1stTitle }
+          imgSrc={ homeMob1stTitle }
           imgAlt="1° título da Home"
         />
       </section>
