@@ -1,5 +1,4 @@
 import React from 'react';
-// import Image from 'next/image';
 import Img from '../components/Img';
 import indexMob1stTitle from '../assets/mobile/index/index_mob_1st_title.svg';
 import styles from '../styles/pages/home.module.css';
