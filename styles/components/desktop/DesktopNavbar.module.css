@@ -5,17 +5,30 @@
   width: 80%;
 }
 
-.desktopNavbar button {
+.selectedLink {
   background-color: black;
+  color: #7D2CFF;
   border: none;
-  color: var(--white);
+  border-bottom: solid 1px #7D2CFF;
   height: fit-content;
   width: fit-content;
   font-size: 1.7rem;
   font-weight: bold;
+  transition-duration: 0.9s;
 }
 
-.desktopNavbar button:hover {
+.link {
+  background-color: black;
+  color: var(--white);
+  border: none;
+  height: fit-content;
+  width: fit-content;
+  font-size: 1.7rem;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+.link:hover {
   color: var(--purple);
   cursor: pointer;
 }

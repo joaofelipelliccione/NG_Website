@@ -11,10 +11,9 @@
   margin-right: 6vw;
   z-index: 2;
   padding: 0 3%;
-  transition-duration: 1s;
 }
 
-.mobileNavbar button {
+.link {
   background-color: var(--purple);
   border: none;
   color: var(--white);
@@ -23,6 +22,16 @@
   font-weight: bold;
   margin: 10% 0;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.selectedLink {
+  color: #000000;
+  background-color: var(--purple);
+  border: none;
+  border-bottom: solid 1px #000000;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 10% 0;
 }
 
 

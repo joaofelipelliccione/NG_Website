@@ -17,11 +17,7 @@ export default function DesktopNavbar() {
         >
           <button
             type="button"
-            style={ {
-              borderBottom: router.pathname === path ? 'solid 1px #7D2CFF' : 'none',
-              color: router.pathname === path ? '#7D2CFF' : '#FFFFFF',
-              transitionDuration: '0.8s',
-            } }
+            className={ router.pathname === path ? styles.selectedLink : styles.link }
           >
             {name}
           </button>
