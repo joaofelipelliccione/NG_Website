@@ -4,11 +4,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 import downloadAppBtn from '../assets/download_app_btn.svg';
 
-const downloadAppBtnStyle = {
+const ImgBtnStyle = {
   cursor: 'pointer',
 };
 
-export default function DownloadAppBtn({ widthPercent }) {
+export default function ImgBtn({ widthPercent }) {
   return (
     <Link
       href="https://www.google.com.br/"
@@ -18,12 +18,12 @@ export default function DownloadAppBtn({ widthPercent }) {
         src={ downloadAppBtn }
         alt="Botão de Baixar App"
         width={ widthPercent }
-        style={ downloadAppBtnStyle }
+        style={ ImgBtnStyle }
       />
     </Link>
   );
 }
 
-DownloadAppBtn.propTypes = {
+ImgBtn.propTypes = {
   widthPercent: PropTypes.string.isRequired,
 };

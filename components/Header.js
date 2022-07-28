@@ -5,7 +5,7 @@ import Image from 'next/image';
 import ngLogo from '../assets/logo_ng_cash.gif';
 import HeaderHamburger from './HeaderHamburger';
 import DesktopNavbar from './desktop/DesktopNavbar';
-import DownloadAppBtn from './DownloadAppBtn';
+import ImgBtn from './ImgBtn';
 import styles from '../styles/components/Header.module.css';
 
 const ngLogoStyle = {
@@ -41,7 +41,7 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
       />
       <div className={ styles.desktopNavbarContainer }>
         <DesktopNavbar />
-        <DownloadAppBtn widthPercent="110%" />
+        <ImgBtn widthPercent="110%" />
       </div>
     </header>
   );
