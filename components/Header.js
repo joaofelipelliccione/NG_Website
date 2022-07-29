@@ -1,21 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'next/link';
-import Image from 'next/image';
 import ngLogo from '../assets/logo_ng_cash.gif';
 import HeaderHamburger from './HeaderHamburger';
 import DesktopNavbar from './desktop/DesktopNavbar';
 import ImgBtn from './ImgBtn';
 import downloadAppBtn from '../assets/download_app_btn.svg';
 import styles from '../styles/components/Header.module.css';
-
-const ngLogoStyle = {
-  animationDuration: '1s',
-  animationTimingFunction: 'ease-out',
-  animationDelay: '0s',
-  animationIterationCount: 1,
-  animationName: 'slideInFromLeft',
-};
 
 export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
   React.useEffect(() => {
@@ -24,18 +14,13 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
 
   return (
     <header className={ styles.header }>
-      <Link
+      <ImgBtn
+        imgClassName={ styles.headerLogo }
+        imgSrc={ ngLogo }
+        imgAlt="Logo NG.CASH"
         href="/"
-        passHref={ false }
-      >
-        <Image
-          src={ ngLogo }
-          alt="Logo NG.CASH"
-          width={ 95 }
-          height={ 95 }
-          style={ ngLogoStyle }
-        />
-      </Link>
+        passHrefValue={ false }
+      />
       <HeaderHamburger
         isHambContentOpen={ isHambContentOpen }
         setIsHambContentOpen={ setIsHambContentOpen }
