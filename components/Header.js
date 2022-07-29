@@ -6,6 +6,7 @@ import ngLogo from '../assets/logo_ng_cash.gif';
 import HeaderHamburger from './HeaderHamburger';
 import DesktopNavbar from './desktop/DesktopNavbar';
 import ImgBtn from './ImgBtn';
+import downloadAppBtn from '../assets/download_app_btn.svg';
 import styles from '../styles/components/Header.module.css';
 
 const ngLogoStyle = {
@@ -41,7 +42,13 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
       />
       <div className={ styles.desktopNavbarContainer }>
         <DesktopNavbar />
-        <ImgBtn widthPercent="110%" />
+        <ImgBtn
+          imgClassName={ styles.headerDownloadAppBtn }
+          imgSrc={ downloadAppBtn }
+          imgAlt="Botão de Download"
+          href="https://www.google.com.br/"
+          passHrefValue
+        />
       </div>
     </header>
   );
