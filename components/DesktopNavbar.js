@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import headerPaths from '../../data/headerPaths';
-import styles from '../../styles/components/desktop/DesktopNavbar.module.css';
+import headerPaths from '../data/headerPaths';
+import styles from '../styles/components/DesktopNavbar.module.css';
 
 export default function DesktopNavbar() {
   const router = useRouter();

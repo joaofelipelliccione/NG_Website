@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import Header from './Header';
-import MobileNavBar from './mobile/MobileNavbar';
+import MobileNavBar from './MobileNavbar';
 import styles from '../styles/components/Layout.module.css';
 
 export default function Layout({ children }) {

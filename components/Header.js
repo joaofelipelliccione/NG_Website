@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ngLogo from '../assets/logo_ng_cash.gif';
 import HeaderHamburger from './HeaderHamburger';
-import DesktopNavbar from './desktop/DesktopNavbar';
+import DesktopNavbar from './DesktopNavbar';
 import ImgBtn from './ImgBtn';
 import downloadAppBtn from '../assets/download_app_btn.svg';
 import styles from '../styles/components/Header.module.css';
