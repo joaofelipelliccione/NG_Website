@@ -1,34 +1,39 @@
 const headerPaths = [
   {
-    name: 'Benefícios',
+    name: 'Sobre a NG',
     passHrefProp: false,
-    path: '/beneficios',
+    path: '/',
   },
-  {
-    name: 'Tarifas',
-    passHrefProp: false,
-    path: '/tarifas',
-  },
+  // {
+  //   name: 'Benefícios',
+  //   passHrefProp: false,
+  //   path: '/beneficios',
+  // },
+  // {
+  //   name: 'Tarifas',
+  //   passHrefProp: false,
+  //   path: '/tarifas',
+  // },
   {
     name: 'Ajuda',
     passHrefProp: false,
     path: '/ajuda',
   },
-  {
-    name: 'Segurança',
-    passHrefProp: false,
-    path: '/seguranca',
-  },
+  // {
+  //   name: 'Segurança',
+  //   passHrefProp: false,
+  //   path: '/seguranca',
+  // },
   {
     name: 'Carreiras',
     passHrefProp: true,
     path: 'https://careers.ng.cash/',
   },
-  {
-    name: 'Parcerias',
-    passHrefProp: false,
-    path: '/parcerias',
-  },
+  // {
+  //   name: 'Parcerias',
+  //   passHrefProp: false,
+  //   path: '/parcerias',
+  // },
 ];
 
 export default headerPaths;

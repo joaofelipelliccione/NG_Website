@@ -65,7 +65,7 @@
 .desktopNavbarContainer {
   display: flex;
   justify-content: space-evenly;
-  width: 70%;
+  width: 60%;
 }
 
 .headerDownloadAppBtn {
