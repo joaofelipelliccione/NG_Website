@@ -19,7 +19,6 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
         imgSrc={ ngLogo }
         imgAlt="Logo NG.CASH"
         href="/"
-        passHrefValue={ false }
       />
       <HeaderHamburger
         isHambContentOpen={ isHambContentOpen }
@@ -32,7 +31,6 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
           imgSrc={ downloadAppBtn }
           imgAlt="Botão de Download"
           href="https://www.google.com.br/"
-          passHrefValue
         />
       </div>
     </header>

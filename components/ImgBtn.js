@@ -1,28 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'next/link';
 import Image from 'next/image';
 
-export default function ImgBtn({ imgClassName, imgSrc, imgAlt, href, passHrefValue }) {
+export default function ImgBtn({ imgClassName, imgSrc, imgAlt, href }) {
   return (
     <div className={ imgClassName }>
-      <Link
+      <a
         href={ href }
-        passHref={ passHrefValue }
+        target="_blank"
+        rel="noreferrer"
       >
         <Image
           src={ imgSrc }
           alt={ imgAlt }
           layout="responsive"
         />
-      </Link>
+      </a>
     </div>
   );
 }
 
 ImgBtn.propTypes = {
   href: PropTypes.string.isRequired,
-  passHrefValue: PropTypes.bool.isRequired,
   imgClassName: PropTypes.string.isRequired,
   imgSrc: PropTypes.objectOf(PropTypes.string).isRequired,
   imgAlt: PropTypes.string.isRequired,
