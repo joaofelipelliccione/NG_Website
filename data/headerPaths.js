@@ -15,20 +15,20 @@ const headerPaths = [
   //   path: '/tarifas',
   // },
   {
+    name: 'Carreiras',
+    passHrefProp: true,
+    path: 'https://careers.ng.cash/',
+  },
+  {
     name: 'Ajuda',
-    passHrefProp: false,
-    path: '/ajuda',
+    passHrefProp: true,
+    path: 'https://help.ng.cash/pt-BR/',
   },
   // {
   //   name: 'Segurança',
   //   passHrefProp: false,
   //   path: '/seguranca',
   // },
-  {
-    name: 'Carreiras',
-    passHrefProp: true,
-    path: 'https://careers.ng.cash/',
-  },
   // {
   //   name: 'Parcerias',
   //   passHrefProp: false,
