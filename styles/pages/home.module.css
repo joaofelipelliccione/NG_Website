@@ -13,11 +13,18 @@
   padding-bottom: 60vh;
 }
 
-.homepage1stTitle {
+.homepage1stTitleMob {
   align-self: center;
   width: 52vw;
   margin-right: 40px;
   margin-top: 40%;
+}
+
+.homepage1stTitleDesktop {
+  border: solid 2px red;
+  align-self: center;
+  margin-top: 15%;
+  width: 45vw;
 }
 
 .storesBtnsContainer {
@@ -36,4 +43,37 @@
 
 .homepageSecondSection {
   background-color: green;
+}
+
+@media screen and (min-width: 1080px) {
+  .homepage1stTitleMob {
+    display: none;
+  }
+
+  .homepageFirstSection {
+    background-image: url(../../assets/desktop/home/home_desktop_1st_cover.svg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .storesBtnsContainer {
+    border: solid 1px red;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45vw;
+  }
+  
+  .storeBtn {
+    width: 48%;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .homepage1stTitleDesktop {
+    display: none;
+  }
 }
