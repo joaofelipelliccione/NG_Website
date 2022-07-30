@@ -41,8 +41,17 @@
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
-.homepageSecondSection {
-  background-color: green;
+.homepage2ndSection {
+  /* border: solid 2px green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.home2ndSectionStepsMob {
+  /* border: solid 2px red; */
+  width: 52vw;
 }
 
 @media screen and (min-width: 1080px) {
