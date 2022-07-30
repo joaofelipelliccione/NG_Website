@@ -4,7 +4,7 @@ import homeMobSteps from '../../assets/mobile/home/home_mob_steps.svg';
 import homeMob2ndTitle from '../../assets/mobile/home/home_mob_2nd_title.svg';
 import homeDesktopSteps from '../../assets/desktop/home/home_desktop_steps.svg';
 import homeDesktop2ndTitle from '../../assets/desktop/home/home_desktop_2nd_title.svg';
-import downloadAppBtn from '../../assets/download_app_btn.svg';
+import downloadAppBtn from '../../assets/buttons/download_app_btn.svg';
 import styles from '../../styles/pages/home.module.css';
 import Img from '../Img';
 

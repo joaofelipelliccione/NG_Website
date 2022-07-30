@@ -4,7 +4,7 @@ import ngLogo from '../assets/logo_ng_cash.gif';
 import HeaderHamburger from './HeaderHamburger';
 import DesktopNavbar from './DesktopNavbar';
 import ImgBtn from './ImgBtn';
-import downloadAppBtn from '../assets/download_app_btn.svg';
+import downloadAppBtn from '../assets/buttons/download_app_btn.svg';
 import styles from '../styles/components/Header.module.css';
 
 export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
