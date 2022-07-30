@@ -42,26 +42,43 @@
 }
 
 .homepage2ndSection {
-  /* border: solid 2px green; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 6vh;
+  padding-bottom: 9vh;
 }
 
 .home2ndSectionStepsMob {
+  width: 50vw;
+  margin-top: 7vh;
+}
+
+.home2ndSectionStepsDesktop {
   /* border: solid 2px red; */
-  width: 52vw;
+  width: 38vw;
+  margin-top: 5%;
 }
 
 .home2ndSectionTitleMob {
-  /* border: solid 2px pink; */
   width: 65vw;
   margin-top: 12%;
 }
 
+.home2ndSectionTitleDesktop {
+  /* border: solid 2px blue; */
+  width: 63vw;
+  margin-top: 3%;
+}
+
+.homeDownloadAppBtn {
+  align-self: center;
+  width: 20%;
+  margin-top: 5%;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
 @media screen and (min-width: 1080px) {
-  .home1stSectionTitleMob {
+  .home1stSectionTitleMob, .home2ndSectionStepsMob, .home2ndSectionTitleMob {
     display: none;
   }
 
@@ -70,15 +87,15 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
+    padding-bottom: 38%;
   }
 
   .homepageQrCode {
     align-self: center;
-    width: 7%;
+    width: 9%;
     margin-top: 4%;
     margin-bottom: 3%;
   }
-  
 
   .storesBtnsContainer {
     align-self: center;
@@ -94,14 +111,16 @@
     margin-top: 8%;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   }
+
+  .homeDownloadAppBtn {
+    align-self: center;
+    width: 8%;
+    margin-top: 4.5%;
+  }
 }
 
 @media screen and (max-width: 1079px) {
-  .home1stSectionTitleDesktop {
-    display: none;
-  }
-
-  .homepageQrCode {
+  .home1stSectionTitleDesktop, .homepageQrCode, .home2ndSectionStepsDesktop, .home2ndSectionTitleDesktop {
     display: none;
   }
 }
