@@ -4,7 +4,7 @@
   height: 100%;
 }
 
-.homepageFirstSection {
+.homepage1stSection {
   background-image: url(../../assets/mobile/home/home_mob_1st_cover.svg);
   background-size: cover;
   display: flex;
@@ -13,14 +13,14 @@
   padding-bottom: 60vh;
 }
 
-.homepage1stTitleMob {
+.home1stSectionTitleMob {
   align-self: center;
   width: 52vw;
   margin-right: 40px;
   margin-top: 40%;
 }
 
-.homepage1stTitleDesktop {
+.home1stSectionTitleDesktop {
   align-self: center;
   margin-top: 10%;
   width: 45vw;
@@ -45,11 +45,11 @@
 }
 
 @media screen and (min-width: 1080px) {
-  .homepage1stTitleMob {
+  .home1stSectionTitleMob {
     display: none;
   }
 
-  .homepageFirstSection {
+  .homepage1stSection {
     background-image: url(../../assets/desktop/home/home_desktop_1st_cover.svg);
     background-size: cover;
     display: flex;
@@ -80,7 +80,7 @@
 }
 
 @media screen and (max-width: 1080px) {
-  .homepage1stTitleDesktop {
+  .home1stSectionTitleDesktop {
     display: none;
   }
 
