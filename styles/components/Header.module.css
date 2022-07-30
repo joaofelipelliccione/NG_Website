@@ -80,7 +80,7 @@
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1079px) {
   .desktopNavbarContainer {
     display: none;
   }

@@ -16,9 +16,9 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
     <header className={ styles.header }>
       <ImgBtn
         imgClassName={ styles.headerLogo }
+        href="/"
         imgSrc={ ngLogo }
         imgAlt="Logo NG.CASH"
-        href="/"
       />
       <HeaderHamburger
         isHambContentOpen={ isHambContentOpen }
@@ -28,9 +28,10 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
         <DesktopNavbar />
         <ImgBtn
           imgClassName={ styles.headerDownloadAppBtn }
+          href="https://www.google.com.br/"
+          target="_blank"
           imgSrc={ downloadAppBtn }
           imgAlt="Botão de Download"
-          href="https://www.google.com.br/"
         />
       </div>
     </header>

@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Image from 'next/image';
 
-export default function ImgBtn({ imgClassName, imgSrc, imgAlt, href }) {
+export default function ImgBtn({ imgClassName, href, target, imgSrc, imgAlt }) {
   return (
     <div className={ imgClassName }>
       <a
         href={ href }
-        target="_blank"
+        target={ target }
         rel="noreferrer"
       >
         <Image
@@ -21,8 +21,13 @@ export default function ImgBtn({ imgClassName, imgSrc, imgAlt, href }) {
 }
 
 ImgBtn.propTypes = {
-  href: PropTypes.string.isRequired,
   imgClassName: PropTypes.string.isRequired,
+  href: PropTypes.string.isRequired,
+  target: PropTypes.string,
   imgSrc: PropTypes.objectOf(PropTypes.string).isRequired,
   imgAlt: PropTypes.string.isRequired,
+};
+
+ImgBtn.defaultProps = {
+  target: '',
 };

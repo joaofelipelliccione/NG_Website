@@ -9,15 +9,17 @@ export default function StoresBtns({ containerClassName, btnClassName }) {
     <div className={ containerClassName }>
       <ImgBtn
         imgClassName={ btnClassName }
+        href="https://play.google.com/store/apps/details?id=com.neaglebank"
+        target="_blank"
         imgSrc={ googlePlayStore }
         imgAlt="Baixe o app na Google Play Store!"
-        href="https://play.google.com/store/apps/details?id=com.neaglebank"
       />
       <ImgBtn
         imgClassName={ btnClassName }
+        href="https://apps.apple.com/app/id1480105326"
+        target="_blank"
         imgSrc={ appStore }
         imgAlt="Baixe o app na Apple App Store!"
-        href="https://apps.apple.com/app/id1480105326"
       />
     </div>
   );
