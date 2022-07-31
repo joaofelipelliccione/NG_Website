@@ -1,7 +1,7 @@
 import React from 'react';
 import { useMediaPredicate } from 'react-media-hook';
 import Img from '../Img';
-import homeMob4thCover from '../../assets/mobile/home/home_mob_4th_cover.svg';
+import homeMob4thCover from '../../assets/mobile/home/home_mob_4th_cover.png';
 import homeDesktop4thCover from '../../assets/desktop/home/home_desktop_4th_cover.svg';
 import styles from '../../styles/pages/home.module.css';
 
