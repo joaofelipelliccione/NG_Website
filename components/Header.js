@@ -9,7 +9,10 @@ import styles from '../styles/components/Header.module.css';
 
 export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
   React.useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   }, []);
 
   return (
