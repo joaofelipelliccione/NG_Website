@@ -34,16 +34,14 @@
 
 @media screen and (min-width: 1080px) {
   .newsIcons {
-    /* border: solid 2px red; */
-    width: 8vw;
+    max-width: 12rem;
     margin: 20% 0;
   }
 }
 
 @media screen and (max-width: 1079px) {
   .newsIcons {
-    /* border: solid 2px green; */
-    width: 15vw;
+    max-width: 7rem;
     margin: 20% 0;
   }
 }
