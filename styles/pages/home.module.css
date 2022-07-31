@@ -64,7 +64,6 @@
 }
 
 .home2ndSectionTitleDesktop {
-  /* border: solid 2px blue; */
   width: 63vw;
   margin-top: 3%;
 }
@@ -74,6 +73,34 @@
   width: 20%;
   margin-top: 5%;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.homepage3rdSection {
+  /* border: solid 2px red; */
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8% 0;
+}
+
+.homepage3rdSectionWrapper {
+  /* border: solid 2px blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.ngCardOutOfBox {
+  /* border: solid 2px purple; */
+  width: 42vw;
+}
+
+.homepage3rdSectionTextMob {
+  /* border: solid 2px red; */
+  width: 52vw;
+  margin-top: 5%;
 }
 
 @media screen and (min-width: 1080px) {
