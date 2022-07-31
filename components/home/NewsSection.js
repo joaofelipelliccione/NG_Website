@@ -1,6 +1,6 @@
 import React from 'react';
 import Img from '../Img';
-import newsBillboard from '../../assets/news_billboard.svg';
+import newsBillboard from '../../assets/news_billboard.png';
 import styles from '../../styles/components/home/NewsSection.module.css';
 
 const newsIcons = [
