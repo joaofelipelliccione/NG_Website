@@ -2,11 +2,11 @@ import React from 'react';
 import styles from '../../styles/components/home/EmojisScrollbar.module.css';
 
 const emojisCards = [
-  { cardId: 1, cardImgSrc: '/benefits/emoji_card_1.svg' },
-  { cardId: 2, cardImgSrc: '/benefits/emoji_card_2.svg' },
-  { cardId: 3, cardImgSrc: '/benefits/emoji_card_3.svg' },
-  { cardId: 4, cardImgSrc: '/benefits/emoji_card_4.svg' },
-  { cardId: 5, cardImgSrc: '/benefits/emoji_card_5.svg' },
+  { cardId: 1, cardImgSrc: '/benefits/emoji_card_1.png' },
+  { cardId: 2, cardImgSrc: '/benefits/emoji_card_2.png' },
+  { cardId: 3, cardImgSrc: '/benefits/emoji_card_3.png' },
+  { cardId: 4, cardImgSrc: '/benefits/emoji_card_4.png' },
+  { cardId: 5, cardImgSrc: '/benefits/emoji_card_5.png' },
 ];
 
 export default function EmojisScrollbar() {
