@@ -1,0 +1,29 @@
+.scrollbarContainer {
+  background-color: var(--white);
+  display: flex;
+  justify-content: baseline;
+  align-content: center;
+  align-items:baseline;
+  width: 100%;
+  margin-top: 8%;
+}
+
+.emojisScrollbar {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.emojisScrollbar::before, .emojisScrollbar::after {
+  content: '';
+}
+
+.emojisScrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.emojiCard {
+  width: 60vw;
+  height: 18vh;
+  margin: 0 2.5%;
+}

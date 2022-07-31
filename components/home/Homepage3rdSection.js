@@ -1,6 +1,7 @@
 import React from 'react';
 import { useMediaPredicate } from 'react-media-hook';
 import ImgWithText from '../ImgWithText';
+import EmojisScrollbar from './EmojisScrollbar';
 import ngCardOutOfBox from '../../assets/home_ngcard_out_of_box.svg';
 import descriptionMob from '../../assets/mobile/home/home_mob_3rd_text.svg';
 import descriptionDesktop from '../../assets/desktop/home/home_desktop_3rd_text.svg';
@@ -20,6 +21,7 @@ export default function Homepage3rdSection() {
         img2Src={ biggerThan1079 ? descriptionDesktop : descriptionMob }
         img2Alt="Propósito NG.CASH"
       />
+      {!biggerThan1079 && <EmojisScrollbar />}
     </section>
   );
 }
