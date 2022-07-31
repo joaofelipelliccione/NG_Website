@@ -76,7 +76,7 @@
 }
 
 .homepage3rdSection {
-  /* border: solid 2px red; */
+  border: solid 2px red;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
