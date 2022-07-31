@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ImgBtn from './ImgBtn';
-import appStore from '../assets/buttons/app_store.svg';
-import googlePlayStore from '../assets/buttons/google_play_store.svg';
+import appStore from '../assets/buttons/app_store.png';
+import googlePlayStore from '../assets/buttons/google_play_store.png';
 
 export default function StoresBtns({ containerClassName, btnClassName }) {
   return (
