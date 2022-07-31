@@ -15,6 +15,11 @@ const newsIcons = [
 export default function NewsSection() {
   return (
     <section className={ styles.newsSection }>
+      <Img
+        imgClassName={ styles.newsBillboard }
+        imgSrc={ newsBillboard }
+        imgAlt="Letreiro"
+      />
       <div className={ styles.newsSectionWrapper }>
         {newsIcons.map(({ iconId, iconHref, iconImgSrc }) => (
           <a
@@ -31,11 +36,6 @@ export default function NewsSection() {
           </a>
         ))}
       </div>
-      <Img
-        imgClassName={ styles.newsBillboard }
-        imgSrc={ newsBillboard }
-        imgAlt="Letreiro"
-      />
     </section>
   );
 }
