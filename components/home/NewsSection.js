@@ -1,5 +1,4 @@
 import React from 'react';
-// import ImgBtn from '../ImgBtn';
 import Img from '../Img';
 import newsBillboard from '../../assets/news_billboard.svg';
 import styles from '../../styles/components/home/NewsSection.module.css';
