@@ -13,6 +13,13 @@ export default function FooterContact() {
         >
           suporte@ng.cash
         </a>
+        <a
+          href="mailto:parcerias@ng.cash"
+          target="_blank"
+          rel="noreferrer"
+        >
+          parcerias@ng.cash
+        </a>
       </div>
       <div className={ styles.footerContactAddress }>
         <h4>NG.CASH</h4>
