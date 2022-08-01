@@ -57,7 +57,7 @@
 
 .footerContact h3 {
   color: var(--white);
-  font-size: 4vw;
+  font-size: 3.5vw;
 }
 
 .footerContactMails {
@@ -115,17 +115,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10% 0;
+  padding: 0 0 5% 0;
 }
 
 .footerPartners {
-  border: solid 2px grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 5%;
 }
 
 .trampolinLogo {
-  border: solid 2px red;
+  width: 15vw;
+  margin-bottom: 10%;
 }
 
 .stoneLogo {
-  border: solid 2px green;
+  width: 14vw;
+}
+
+.mobileFooter3rdSection h3 {
+  color: var(--white);
+  text-align: center;
+  font-size: 1rem;
 }

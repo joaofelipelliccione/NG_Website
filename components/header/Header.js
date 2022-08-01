@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ngLogo from '../../assets/logo_ng_cash.gif';
+import ngLogo from '../../assets/logos/logo_ng_cash.gif';
 import HeaderHamburger from './HeaderHamburger';
 import DesktopNavbar from './DesktopNavbar';
 import ImgBtn from '../ImgBtn';
