@@ -1,6 +1,7 @@
 import React from 'react';
 import FooterSocialMedia from './FooterSocialMedia';
 import FooterContact from './FooterContact';
+import FooterTerms from './FooterTerms';
 import styles from '../../styles/components/footer/Footer.module.css';
 
 export default function MobileFooter() {
@@ -11,6 +12,7 @@ export default function MobileFooter() {
       </section>
       <section className={ styles.mobileFooter2ndSection }>
         <FooterContact />
+        <FooterTerms />
       </section>
     </footer>
   );
