@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from './Header';
 import MobileNavBar from './MobileNavbar';
+import MobileFooter from './MobileFooter';
 import styles from '../styles/components/Layout.module.css';
 
 export default function Layout({ children }) {
@@ -19,6 +20,7 @@ export default function Layout({ children }) {
           setIsHambContentOpen={ setIsHambContentOpen }
         />)}
       { children }
+      <MobileFooter />
     </div>
   );
 }
