@@ -1,5 +1,6 @@
 import React from 'react';
 import FooterSocialMedia from './FooterSocialMedia';
+import FooterContact from './FooterContact';
 import styles from '../../styles/components/footer/Footer.module.css';
 
 export default function MobileFooter() {
@@ -9,7 +10,7 @@ export default function MobileFooter() {
         <FooterSocialMedia />
       </section>
       <section className={ styles.mobileFooter2ndSection }>
-        OLÁ
+        <FooterContact />
       </section>
     </footer>
   );
