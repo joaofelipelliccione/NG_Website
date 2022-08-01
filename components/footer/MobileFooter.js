@@ -1,12 +1,15 @@
 import React from 'react';
-import styles from '../../styles/components/footer/MobileFooter.module.css';
+import FooterSocialMedia from './FooterSocialMedia';
+import styles from '../../styles/components/footer/Footer.module.css';
 
 export default function MobileFooter() {
   return (
     <footer className={ styles.mobileFooter }>
       <section className={ styles.mobileFooter1stSection }>
-        Frase
-        Botões
+        <FooterSocialMedia />
+      </section>
+      <section className={ styles.mobileFooter2ndSection }>
+        OLÁ
       </section>
     </footer>
   );

@@ -1,0 +1,46 @@
+.mobileFooter {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mobileFooter1stSection {
+  background-image: url(../../../assets/mobile/footer/footer_mob_cover.svg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 130vw;
+}
+
+.footerSocialMedia {
+  /* border: solid 2px red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.footerMainText {
+  /* border: solid 2px green; */
+  width: 50vw;
+}
+
+.socialMediaBtnsContainer {
+  /* border: solid 2px pink; */
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin-top: 5%;
+}
+
+.socialMediaLogo {
+  /* border: solid 2px blue; */
+  width: 6vw;
+  height: fit-content;
+}
+
+.mobileFooter2ndSection {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+}
