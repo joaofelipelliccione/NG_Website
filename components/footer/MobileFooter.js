@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/components/MobileFooter.module.css';
+import styles from '../../styles/components/footer/MobileFooter.module.css';
 
 export default function MobileFooter() {
   return (

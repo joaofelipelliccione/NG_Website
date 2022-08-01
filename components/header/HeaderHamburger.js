@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import styles from '../styles/components/Header.module.css';
+import styles from '../../styles/components/header/Header.module.css';
 
 export default function HeaderHamburger({ isHambContentOpen, setIsHambContentOpen }) {
   // REF: https://codepen.io/diegotorres/pen/WxaxKo
