@@ -1,12 +1,12 @@
 import React from 'react';
 import ImgBtn from '../ImgBtn';
+import Img from '../Img';
 import homeMobSteps from '../../assets/mobile/home/home_mob_steps.svg';
 import homeMob2ndTitle from '../../assets/mobile/home/home_mob_2nd_title.svg';
 import homeDesktopSteps from '../../assets/desktop/home/home_desktop_steps.svg';
 import homeDesktop2ndTitle from '../../assets/desktop/home/home_desktop_2nd_title.svg';
 import downloadAppBtn from '../../assets/buttons/download_app_btn.svg';
 import styles from '../../styles/pages/home.module.css';
-import Img from '../Img';
 
 export default function Homepage2ndSection() {
   return (

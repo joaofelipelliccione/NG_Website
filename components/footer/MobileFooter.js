@@ -14,6 +14,9 @@ export default function MobileFooter() {
         <FooterContact />
         <FooterTerms />
       </section>
+      <section className={ styles.mobileFooter3rdSection }>
+        
+      </section>
     </footer>
   );
 }

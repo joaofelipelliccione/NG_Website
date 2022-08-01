@@ -95,7 +95,6 @@
 }
 
 .footerTerms {
-  /* border: solid 2px red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,4 +108,24 @@
   font-weight: bold;
   margin-bottom: 3%;
   text-decoration: none;
+}
+
+.mobileFooter3rdSection {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 0;
+}
+
+.footerPartners {
+  border: solid 2px grey;
+}
+
+.trampolinLogo {
+  border: solid 2px red;
+}
+
+.stoneLogo {
+  border: solid 2px green;
 }
