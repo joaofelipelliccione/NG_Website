@@ -21,7 +21,7 @@ export default function Homepage3rdSection() {
         img2Src={ biggerThan1079 ? descriptionDesktop : descriptionMob }
         img2Alt="Propósito NG.CASH"
       />
-      {!biggerThan1079 && <EmojisScrollbar />}
+      <EmojisScrollbar />
     </section>
   );
 }
