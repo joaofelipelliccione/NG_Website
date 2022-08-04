@@ -228,6 +228,12 @@
     font-size: 1vw;
     font-weight: normal;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    transition-duration: 0.5s;
+  }
+
+  .footerContactMails a:hover {
+    color: var(--purple);
+    cursor: pointer;
   }
   
   .footerContactAddress {
@@ -267,6 +273,12 @@
     font-weight: bold;
     margin-bottom: 5%;
     text-decoration: none;
+    transition-duration: 0.5s;
+  }
+
+  .footerTerms a:hover {
+    color: var(--purple);
+    cursor: pointer;
   }
   
   .desktopFooter3rdSection {
@@ -300,6 +312,6 @@
   .desktopFooter3rdSection h3 {
     color: var(--white);
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 }
