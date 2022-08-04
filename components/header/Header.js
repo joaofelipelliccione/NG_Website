@@ -14,7 +14,7 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
 
   React.useEffect(() => {
     document.addEventListener('scroll', () => {
-      const scrollCheck = window.scrollY < SCROLL_PX;
+      const scrollCheck = window.scrollY > SCROLL_PX;
       if (scrollCheck !== scroll) {
         setScroll(scrollCheck);
       }
@@ -32,7 +32,7 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
   return (
     <header
       className={ styles.header }
-      style={ { backgroundColor: scroll ? 'rgba(0, 0, 0, 0)' : 'black' } }
+      style={ { backgroundColor: scroll ? 'black' : 'rgba(0, 0, 0, 0)' } }
     >
       <ImgBtn
         imgClassName={ styles.headerLogo }
