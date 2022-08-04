@@ -37,14 +37,14 @@
 
 @media screen and (min-width: 1080px) {
   .newsIcons {
-    max-width: 12rem;
+    max-width: 13rem;
     margin: 20% 0;
   }
 }
 
 @media screen and (max-width: 1079px) {
   .newsIcons {
-    max-width: 7rem;
+    max-width: 7.5rem;
     margin: 20% 0;
   }
 }
