@@ -16,6 +16,6 @@ export default function Img({ imgClassName, imgSrc, imgAlt }) {
 
 Img.propTypes = {
   imgClassName: PropTypes.string.isRequired,
-  imgSrc: PropTypes.objectOf(PropTypes.string).isRequired,
+  imgSrc: PropTypes.shape({}).isRequired,
   imgAlt: PropTypes.string.isRequired,
 };

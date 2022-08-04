@@ -26,9 +26,9 @@ export default function ImgWithText({
 ImgWithText.propTypes = {
   wrapperClassName: PropTypes.string.isRequired,
   img1ClassName: PropTypes.string.isRequired,
-  img1Src: PropTypes.string.isRequired,
+  img1Src: PropTypes.shape({}).isRequired,
   img1Alt: PropTypes.string.isRequired,
   img2ClassName: PropTypes.string.isRequired,
-  img2Src: PropTypes.string.isRequired,
+  img2Src: PropTypes.shape({}).isRequired,
   img2Alt: PropTypes.string.isRequired,
 };

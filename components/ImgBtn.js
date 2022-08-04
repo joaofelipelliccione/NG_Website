@@ -24,7 +24,7 @@ ImgBtn.propTypes = {
   imgClassName: PropTypes.string.isRequired,
   href: PropTypes.string.isRequired,
   target: PropTypes.string,
-  imgSrc: PropTypes.objectOf(PropTypes.string).isRequired,
+  imgSrc: PropTypes.shape({}).isRequired,
   imgAlt: PropTypes.string.isRequired,
 };
 
