@@ -83,20 +83,34 @@
   padding: 10% 0;
 }
 
-.homepage3rdSectionWrapper {
+.homepage3rdSectionWrapperMob {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
 
+.homepage3rdSectionWrapperDesktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+
 .ngCardOutOfBox {
-  width: 42vw;
+  width: 39vw;
 }
 
 .homepage3rdSectionTextMob {
-  width: 60vw;
+  width: 65vw;
   margin-top: 5%;
+}
+
+.homepage3rdSectionTextDesktop {
+  width: 30vw;
+  margin-top: 0;
 }
 
 .homepage4thSection {
@@ -198,11 +212,8 @@
     margin-top: 4.5%;
   }
 
-  .homepage3rdSectionWrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
+  .homepage3rdSectionWrapperMob {
+    display: none;
   }
 
   .ngCardOutOfBox {
@@ -251,7 +262,7 @@
 }
 
 @media screen and (max-width: 1079px) {
-  .home1stSectionTitleDesktop, .homepageQrCode, .home2ndSectionStepsDesktop, .home2ndSectionTitleDesktop, .homeDesktop4thSectionCover {
+  .home1stSectionTitleDesktop, .homepageQrCode, .home2ndSectionStepsDesktop, .home2ndSectionTitleDesktop, .homepage3rdSectionWrapperDesktop, .homeDesktop4thSectionCover {
     display: none;
   }
 }
