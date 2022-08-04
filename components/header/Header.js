@@ -8,6 +8,20 @@ import downloadAppBtn from '../../assets/buttons/download_app_btn.svg';
 import styles from '../../styles/components/header/Header.module.css';
 
 export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
+  // Alteração de estilo quando realiza-se o scroll:
+  const [scroll, setScroll] = React.useState(0);
+  const SCROLL_PX = 5;
+
+  React.useEffect(() => {
+    document.addEventListener('scroll', () => {
+      const scrollCheck = window.scrollY < SCROLL_PX;
+      if (scrollCheck !== scroll) {
+        setScroll(scrollCheck);
+      }
+    });
+  });
+
+  // Volta ao topo da página, sempre quando abri-la:
   React.useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -16,7 +30,10 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
   }, []);
 
   return (
-    <header className={ styles.header }>
+    <header
+      className={ styles.header }
+      style={ { backgroundColor: !scroll && 'var(--black)' } }
+    >
       <ImgBtn
         imgClassName={ styles.headerLogo }
         href="/"
