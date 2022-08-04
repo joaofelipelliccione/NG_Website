@@ -34,7 +34,7 @@
   margin: 10% 0;
 }
 
-
+/* DESKTOP: */
 @media screen and (min-width: 1080px) {
   .mobileNavbar {
     display: none;

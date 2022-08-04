@@ -171,6 +171,14 @@
   margin-top: 5%;
 }
 
+/* MOBILE: */
+@media screen and (max-width: 1079px) {
+  .home1stSectionTitleDesktop, .homepageQrCode, .home2ndSectionStepsDesktop, .home2ndSectionTitleDesktop, .homepage3rdSectionWrapperDesktop, .homeDesktop4thSectionCover {
+    display: none;
+  }
+}
+
+/* DESKTOP: */
 @media screen and (min-width: 1080px) {
   .home1stSectionTitleMob, .home2ndSectionStepsMob, .home2ndSectionTitleMob, .homeMob4thSectionCover {
     display: none;
@@ -258,11 +266,5 @@
   .homepage5thSectionTextMob2 {
     width: 37vw;
     margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 1079px) {
-  .home1stSectionTitleDesktop, .homepageQrCode, .home2ndSectionStepsDesktop, .home2ndSectionTitleDesktop, .homepage3rdSectionWrapperDesktop, .homeDesktop4thSectionCover {
-    display: none;
   }
 }

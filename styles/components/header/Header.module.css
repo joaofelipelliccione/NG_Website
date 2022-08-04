@@ -74,14 +74,16 @@
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
-@media screen and (min-width: 1080px) {
-  .headerHamburgerContainer {
+/* MOBILE: */
+@media screen and (max-width: 1079px) {
+  .desktopNavbarContainer {
     display: none;
   }
 }
 
-@media screen and (max-width: 1079px) {
-  .desktopNavbarContainer {
+/* DESKTOP: */
+@media screen and (min-width: 1080px) {
+  .headerHamburgerContainer {
     display: none;
   }
 }
