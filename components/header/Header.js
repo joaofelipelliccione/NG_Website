@@ -32,7 +32,7 @@ export default function Header({ isHambContentOpen, setIsHambContentOpen }) {
   return (
     <header
       className={ styles.header }
-      style={ { backgroundColor: !scroll && 'var(--black)' } }
+      style={ { backgroundColor: scroll ? 'rgba(0, 0, 0, 0)' : 'black' } }
     >
       <ImgBtn
         imgClassName={ styles.headerLogo }
