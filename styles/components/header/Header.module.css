@@ -1,3 +1,21 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-10rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(10rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -12,6 +30,11 @@
   cursor: pointer;
   width: 10rem;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInFromLeft;
 }
 
 .headerHamburgerContainer {
@@ -19,6 +42,11 @@
   align-items: center;
   justify-content: center;
   margin-right: 2rem;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInFromRight;
 }
 
 #headerButtonFlipper {

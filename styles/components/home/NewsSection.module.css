@@ -1,3 +1,12 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .newsSection {
   background-color: var(--grey);
   display: flex;
@@ -48,5 +57,13 @@
   .newsIcons {
     max-width: 13rem;
     margin: 20% 0;
+  }
+
+  .newsIcons:hover {
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: spin;
   }
 }

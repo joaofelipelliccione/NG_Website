@@ -1,3 +1,60 @@
+@keyframes floatMobile {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-10px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+@keyframes floatDesktop {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-30px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(20rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-20rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-2rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .homepageMain {
   display: flex;
   flex-direction: column;
@@ -18,12 +75,22 @@
   width: 52vw;
   margin-right: 40px;
   margin-top: 40%;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-name: floatMobile;
 }
 
 .home1stSectionTitleDesktop {
   align-self: center;
   margin-top: 12%;
   width: 45vw;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-name: floatDesktop;
 }
 
 .storesBtnsContainer {
@@ -34,6 +101,11 @@
   width: 52vw;
   margin-right: 40px;
   margin-top: 2.5vh;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInFromRight;
 }
 
 .storeBtn {
@@ -97,7 +169,6 @@
   align-items: center;
   width: 100%;
 }
-
 
 .ngCardOutOfBox {
   width: 39vw;
@@ -198,6 +269,11 @@
     width: 9%;
     margin-top: 4%;
     margin-bottom: 3%;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInFromRight;
   }
 
   .storesBtnsContainer {
@@ -207,6 +283,11 @@
     align-items: center;
     width: fit-content;
     margin: 0;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInFromLeft;
   }
 
   .storeBtn {

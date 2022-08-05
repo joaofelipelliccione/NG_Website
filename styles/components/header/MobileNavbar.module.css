@@ -1,3 +1,12 @@
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-2rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .mobileNavbar {
   background-color: var(--purple);
   border-radius: 6px 0 6px 6px;
@@ -11,6 +20,11 @@
   margin-right: 6vw;
   z-index: 2;
   padding: 0 3%;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInFromTop;
 }
 
 .link {
