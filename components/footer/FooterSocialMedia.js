@@ -4,13 +4,13 @@ import footerMainText from '../../assets/footer_main_text.svg';
 import ImgBtn from '../ImgBtn';
 import tikTokLogo from '../../assets/logos/tik_tok_logo.png';
 import instagramLogo from '../../assets/logos/instagram_logo.png';
-// import facebookLogo from '../../assets/logos/facebook_logo.png';
+import facebookLogo from '../../assets/logos/facebook_logo.png';
 import styles from '../../styles/components/footer/Footer.module.css';
 
 const socialMediaIcons = [
   { iconId: 1, iconImgSrc: tikTokLogo, iconHref: 'https://www.tiktok.com/@ng.cash' },
   { iconId: 2, iconImgSrc: instagramLogo, iconHref: 'https://www.instagram.com/ng.cash_/' },
-  // { iconId: 3, iconImgSrc: facebookLog, iconHref: 'https://www.facebook.com/ng.cash.face' },
+  { iconId: 3, iconImgSrc: facebookLogo, iconHref: 'https://www.facebook.com/ng.cash.face' },
 ];
 
 export default function FooterSocialMedia() {
