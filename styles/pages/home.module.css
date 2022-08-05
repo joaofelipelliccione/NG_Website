@@ -20,7 +20,7 @@
 	}
 	50% {
 		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-30px);
+		transform: translatey(-25px);
 	}
 	100% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -85,7 +85,7 @@
 .home1stSectionTitleDesktop {
   align-self: center;
   margin-top: 12%;
-  width: 45vw;
+  width: 40vw;
   animation-duration: 2.5s;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
