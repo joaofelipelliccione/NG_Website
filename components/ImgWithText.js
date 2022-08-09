@@ -8,7 +8,7 @@ export default function ImgWithText({
   img2ClassName, img2Src, img2Alt,
 }) {
   return (
-    <div className={ wrapperClassName }>
+    <div className={ wrapperClassName } data-aos="flip-left">
       <Img
         imgClassName={ img1ClassName }
         imgSrc={ img1Src }

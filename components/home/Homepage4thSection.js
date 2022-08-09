@@ -6,7 +6,7 @@ import styles from '../../styles/pages/home.module.css';
 
 export default function Homepage4thSection() {
   return (
-    <section className={ styles.homepage4thSection }>
+    <section className={ styles.homepage4thSection } data-aos="zoom-in-up">
       <Img
         imgClassName={ styles.homeMob4thSectionCover }
         imgSrc={ homeMob4thCover }

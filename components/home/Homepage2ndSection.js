@@ -10,7 +10,7 @@ import styles from '../../styles/pages/home.module.css';
 
 export default function Homepage2ndSection() {
   return (
-    <section className={ styles.homepage2ndSection }>
+    <section className={ styles.homepage2ndSection } data-aos="fade-right">
       <Img
         imgClassName={ styles.home2ndSectionStepsMob }
         imgSrc={ homeMobSteps }
