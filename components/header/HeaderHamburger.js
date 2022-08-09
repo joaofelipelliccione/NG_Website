@@ -1,6 +1,7 @@
+/* eslint-disable max-len */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { AiOutlineClose } from 'react-icons/ai';
 import styles from '../../styles/components/header/Header.module.css';
 
 export default function HeaderHamburger({ isHambContentOpen, setIsHambContentOpen }) {
@@ -17,7 +18,10 @@ export default function HeaderHamburger({ isHambContentOpen, setIsHambContentOpe
           type="button"
           onClick={ () => setIsHambContentOpen(true) }
         >
-          <AiOutlineMenu />
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="7" y="15" width="40" height="2" stroke="var(--white)" strokeWidth="2" />
+            <rect x="25" y="28" width="32" height="2" stroke="var(--white)" strokeWidth="2" />
+          </svg>
         </button>
         <button
           className={ styles.headerCloseBtn }
