@@ -11,7 +11,7 @@ const emojisCards = [
 
 export default function EmojisScrollbar() {
   return (
-    <div className={ styles.scrollbarContainer }>
+    <div className={ styles.scrollbarContainer } data-aos="fade-up">
       <div className={ styles.emojisScrollbar }>
         {emojisCards.map(({ cardId, cardImgSrc }) => (
           <img
