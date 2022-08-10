@@ -19,6 +19,15 @@
   padding: 2rem;
 }
 
+.privacyPolicyDoc::-webkit-scrollbar {
+  width: 4px;
+}
+
+.privacyPolicyDoc::-webkit-scrollbar-thumb {
+  background: var(--purple);
+}
+
+
 .privacyPolicyDoc h1 {
   font-size: 18px;
 }
