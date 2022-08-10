@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
         <h1>POLÍTICA DE PRIVACIDADE</h1>
         <h1>NG.CASH</h1>
         <br />
-        <span>Bem-vindo(a)! Obrigado por utilizar o NG.CASH!</span>
+        <h2>Bem-vindo(a)! Obrigado por utilizar o NG.CASH!</h2>
         <br />
         <span>
           Quando você utiliza o NG.CASH, você nos confia seus dados e informações. Nos
@@ -60,7 +60,7 @@ export default function PrivacyPolicy() {
           .
         </span>
         <br />
-        <span>1. INFORMAÇÕES QUE COLETAMOS</span>
+        <h2>1. INFORMAÇÕES QUE COLETAMOS</h2>
         <br />
         <span>Nós coletamos os seguintes tipos de informações:</span>
         <br />
@@ -149,7 +149,7 @@ export default function PrivacyPolicy() {
           </li>
         </ul>
         <br />
-        <span>2. COMO USAMOS SUAS INFORMAÇÕES</span>
+        <h2>2. COMO USAMOS SUAS INFORMAÇÕES</h2>
         <br />
         <span>
           Não custa lembrar, prezamos muito pela sua privacidade. Por isso, todos os dados e
@@ -227,7 +227,7 @@ export default function PrivacyPolicy() {
           <a href="mailTo:suporte@ng.cash" target="_blank" rel="noreferrer">suporte@ng.cash</a>
         </span>
         <br />
-        <span>3. COMPARTILHAMENTO DAS INFORMAÇÕES</span>
+        <h2>3. COMPARTILHAMENTO DAS INFORMAÇÕES</h2>
         <br />
         <span>
           O NG.CASH pode compartilhar as informações que coleta com parceiros comerciais. O
@@ -254,7 +254,7 @@ export default function PrivacyPolicy() {
           expressamente.
         </span>
         <br />
-        <span>4. DIREITOS DOS TITULARES</span>
+        <h2>4. DIREITOS DOS TITULARES</h2>
         <br />
         <span>
           Você sempre poderá optar em não divulgar seus dados para nós, mas tenha em mente que
@@ -358,7 +358,7 @@ export default function PrivacyPolicy() {
           .
         </span>
         <br />
-        <span>5. SEGURANÇA DAS INFORMAÇÕES</span>
+        <h2>5. SEGURANÇA DAS INFORMAÇÕES</h2>
         <br />
         <span>
           Todos os seus dados são confidenciais e somente as pessoas com as devidas autorizações
@@ -389,7 +389,7 @@ export default function PrivacyPolicy() {
           a esta.
         </span>
         <br />
-        <span>6. ATUALIZAÇÕES DA POLÍTICA DE PRIVACIDADE</span>
+        <h2>6. ATUALIZAÇÕES DA POLÍTICA DE PRIVACIDADE</h2>
         <br />
         <span>
           O NG.CASH se reserva no direito de alterar essa Política quantas vezes forem necessárias,
@@ -400,7 +400,7 @@ export default function PrivacyPolicy() {
           de privacidade, sujeita novamente ao seu consentimento.
         </span>
         <br />
-        <span>7. LEI APLICÁVEL</span>
+        <h2>7. LEI APLICÁVEL</h2>
         <br />
         <span>
           Este documento é regido e deve ser interpretado de acordo com as leis da República
