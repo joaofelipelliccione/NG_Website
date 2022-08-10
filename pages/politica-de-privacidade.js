@@ -102,7 +102,7 @@ export default function PrivacyPolicy() {
           </li>
         </ul>
         <br />
-        <h2>1.2. Informações geradas quando você usa nossos serviços.</h2>
+        <h3>1.2. Informações geradas quando você usa nossos serviços.</h3>
         <br />
         <span>Nós coletamos as seguintes informações geradas:</span>
         <br />
@@ -134,7 +134,7 @@ export default function PrivacyPolicy() {
           </li>
         </ul>
         <br />
-        <h2>1.3. Informações de outras fontes.</h2>
+        <h3>1.3. Informações de outras fontes.</h3>
         <br />
         <span>Isso pode incluir:</span>
         <br />
