@@ -37,11 +37,15 @@
   font-size: 17px;
 }
 
-.privacyPolicyDoc span {
+.privacyPolicyDoc h3 {
   font-size: 16px;
 }
 
+.privacyPolicyDoc span {
+  font-size: 15px;
+}
+
 .privacyPolicyDoc ol, .privacyPolicyDoc ul {
-  font-size: 16px;
+  font-size: 15px;
   margin-left: 3rem;
 }

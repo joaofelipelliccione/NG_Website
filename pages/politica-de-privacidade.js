@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
         <h1>POLÍTICA DE PRIVACIDADE</h1>
         <h1>NG.CASH</h1>
         <br />
-        <h2>Bem-vindo(a)! Obrigado por utilizar o NG.CASH!</h2>
+        <span>Bem-vindo(a)! Obrigado por utilizar o NG.CASH!</span>
         <br />
         <span>
           Quando você utiliza o NG.CASH, você nos confia seus dados e informações. Nos
@@ -64,7 +64,7 @@ export default function PrivacyPolicy() {
         <br />
         <span>Nós coletamos os seguintes tipos de informações:</span>
         <br />
-        <span>1.1. Informações que você nos fornece.</span>
+        <h3>1.1. Informações que você nos fornece.</h3>
         <br />
         <span>Isso inclui:</span>
         <br />
@@ -102,7 +102,7 @@ export default function PrivacyPolicy() {
           </li>
         </ul>
         <br />
-        <span>1.2. Informações geradas quando você usa nossos serviços.</span>
+        <h2>1.2. Informações geradas quando você usa nossos serviços.</h2>
         <br />
         <span>Nós coletamos as seguintes informações geradas:</span>
         <br />
@@ -134,7 +134,7 @@ export default function PrivacyPolicy() {
           </li>
         </ul>
         <br />
-        <span>1.3. Informações de outras fontes.</span>
+        <h2>1.3. Informações de outras fontes.</h2>
         <br />
         <span>Isso pode incluir:</span>
         <br />
@@ -158,7 +158,7 @@ export default function PrivacyPolicy() {
           de forma plena, visando sempre melhorar a sua experiência como usuário.
         </span>
         <br />
-        <span>2.1. Usos autorizados</span>
+        <h3>2.1. Usos autorizados</h3>
         <br />
         <span>Desta forma, poderemos utilizar seus dados para:</span>
         <br />
@@ -196,7 +196,7 @@ export default function PrivacyPolicy() {
           autorização prévia.
         </span>
         <br />
-        <span>2.2. Exclusão dos dados</span>
+        <h3>2.2. Exclusão dos dados</h3>
         <br />
         <span>
           Todos os dados coletados serão excluídos de nossos servidores quando você assim requisitar,
@@ -208,7 +208,7 @@ export default function PrivacyPolicy() {
           medida do que for possível.
         </span>
         <br />
-        <span>2.3. Monitoramento</span>
+        <h3>2.3. Monitoramento</h3>
         <br />
         <span>
           O NG.CASH se reserva no direito de monitorar toda a plataforma, principalmente para
@@ -216,7 +216,7 @@ export default function PrivacyPolicy() {
           se não há violação ou abuso das leis aplicáveis.
         </span>
         <br />
-        <span>2.4. Exclusão de usuário</span>
+        <h3>2.4. Exclusão de usuário</h3>
         <br />
         <span>
           O NG.CASH se reserva no direito de excluir determinado usuário, independente do tipo que
