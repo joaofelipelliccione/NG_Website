@@ -1,3 +1,12 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-20rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .privacyPolicyPage {
   background-color: var(--grey);
   display: flex;
@@ -18,6 +27,11 @@
   height: 580px;
   overflow-x: auto;
   padding: 2rem;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInFromLeft;
 }
 
 .privacyPolicyDoc::-webkit-scrollbar {
