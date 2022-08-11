@@ -11,20 +11,20 @@ export default function PrivacyPolicy() {
         <h1>POLÍTICA DE PRIVACIDADE</h1>
         <h1>NG.CASH</h1>
         <br />
-        <span>Bem-vindo(a)! Obrigado por utilizar o NG.CASH!</span>
+        <p>Bem-vindo(a)! Obrigado por utilizar o NG.CASH!</p>
         <br />
-        <span>
+        <p>
           Quando você utiliza o NG.CASH, você nos confia seus dados e informações. Nos
           comprometemos a manter essa confiança.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           Nesse sentido, a presente Política de Privacidade (“Política”) explica de maneira clara e
           acessível como as suas informações e dados serão coletados, usados, compartilhados e
           armazenados por meio dos nossos sistemas.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           A aceitação da nossa Política será feita quando você acessar ou usar o website
           {' '}
           <a href="https://ng.cash/" target="_blank" rel="noreferrer">https://ng.cash/</a>
@@ -35,11 +35,11 @@ export default function PrivacyPolicy() {
           900, inscrita no CNPJ 40.940.251/0001-70, denominada “NG.CASH”. Isso indicará que você
           está ciente e em total acordo com a forma como utilizaremos as suas informações e seus
           dados.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           A presente Política está dividida da seguinte forma para facilitar a sua compreensão:
-        </span>
+        </p>
         <br />
         <ol>
           <li>Quais informações o NG.CASH coleta</li>
@@ -51,22 +51,22 @@ export default function PrivacyPolicy() {
           <li>Lei aplicável</li>
         </ol>
         <br />
-        <span>
+        <p>
           Este documento deve ser lido em conjunto com os nossos Termos de Uso, que contém uma visão geral da nossa carteira digital. Caso
           tenha dúvidas ou precise tratar de qualquer assunto relacionado a esta Política, entre em
           contato conosco através do e-mail
           {' '}
           <a href="mailTo:suporte@ng.cash" target="_blank" rel="noreferrer">suporte@ng.cash</a>
           .
-        </span>
+        </p>
         <br />
         <h2>1. INFORMAÇÕES QUE COLETAMOS</h2>
         <br />
-        <span>Nós coletamos os seguintes tipos de informações:</span>
+        <p>Nós coletamos os seguintes tipos de informações:</p>
         <br />
         <h3>1.1. Informações que você nos fornece.</h3>
         <br />
-        <span>Isso inclui:</span>
+        <p>Isso inclui:</p>
         <br />
         <ul>
           <li>
@@ -104,7 +104,7 @@ export default function PrivacyPolicy() {
         <br />
         <h3>1.2. Informações geradas quando você usa nossos serviços.</h3>
         <br />
-        <span>Nós coletamos as seguintes informações geradas:</span>
+        <p>Nós coletamos as seguintes informações geradas:</p>
         <br />
         <ul>
           <li>
@@ -136,7 +136,7 @@ export default function PrivacyPolicy() {
         <br />
         <h3>1.3. Informações de outras fontes.</h3>
         <br />
-        <span>Isso pode incluir:</span>
+        <p>Isso pode incluir:</p>
         <br />
         <ul>
           <li>
@@ -151,16 +151,16 @@ export default function PrivacyPolicy() {
         <br />
         <h2>2. COMO USAMOS SUAS INFORMAÇÕES</h2>
         <br />
-        <span>
+        <p>
           Não custa lembrar, prezamos muito pela sua privacidade. Por isso, todos os dados e
           informações sobre você são tratadas como confidenciais e somente as usaremos para os fins
           aqui descritos e autorizados por você, principalmente para que você possa utilizar o NG.CASH
           de forma plena, visando sempre melhorar a sua experiência como usuário.
-        </span>
+        </p>
         <br />
         <h3>2.1. Usos autorizados</h3>
         <br />
-        <span>Desta forma, poderemos utilizar seus dados para:</span>
+        <p>Desta forma, poderemos utilizar seus dados para:</p>
         <br />
         <ul>
           <li>Permitir que você acesse e utilize todas as funcionalidades do NG.CASH;</li>
@@ -189,16 +189,16 @@ export default function PrivacyPolicy() {
           <li>Cumprir obrigações legais.</li>
         </ul>
         <br />
-        <span>
+        <p>
           Eventualmente, poderemos utilizar dados para finalidades não previstas nesta política de
           privacidade, mas estas estarão dentro das suas legítimas expectativas. O eventual uso dos
           seus dados para finalidades que não cumpram com essa prerrogativa será feito mediante sua
           autorização prévia.
-        </span>
+        </p>
         <br />
         <h3>2.2. Exclusão dos dados</h3>
         <br />
-        <span>
+        <p>
           Todos os dados coletados serão excluídos de nossos servidores quando você assim requisitar,
           por procedimento gratuito e facilitado, ou quando estes não forem mais necessários ou
           relevantes para lhe oferecermos os nossos serviços, salvo se houver qualquer outra razão
@@ -206,30 +206,30 @@ export default function PrivacyPolicy() {
           de preservação destes para resguardo de direitos do NG.CASH.
           Nos casos em que você solicite a exclusão dos seus dados, ela será feita prontamente, na
           medida do que for possível.
-        </span>
+        </p>
         <br />
         <h3>2.3. Monitoramento</h3>
         <br />
-        <span>
+        <p>
           O NG.CASH se reserva no direito de monitorar toda a plataforma, principalmente para
           assegurar que as regras descritas em nosso Termos de Uso estão sendo observadas, ou ainda
           se não há violação ou abuso das leis aplicáveis.
-        </span>
+        </p>
         <br />
         <h3>2.4. Exclusão de usuário</h3>
         <br />
-        <span>
+        <p>
           O NG.CASH se reserva no direito de excluir determinado usuário, independente do tipo que
           for, caso a presente Política ou os Termos de Uso não sejam respeitados. Como prezamos
           pelo bom relacionamento com os usuários, reconhecemos que têm o direito de buscar
           entender os motivos e até contestá-los, o que pode ser feito pelo seguinte e-mail:
           {' '}
           <a href="mailTo:suporte@ng.cash" target="_blank" rel="noreferrer">suporte@ng.cash</a>
-        </span>
+        </p>
         <br />
         <h2>3. COMPARTILHAMENTO DAS INFORMAÇÕES</h2>
         <br />
-        <span>
+        <p>
           O NG.CASH pode compartilhar as informações que coleta com parceiros comerciais. O
           compartilhamento das informações ocorrerá de forma anônima, sempre que for possível,
           visando preservar a sua privacidade. Por meio deste documento, você autoriza
@@ -237,43 +237,43 @@ export default function PrivacyPolicy() {
           compartilhamento com o parceiro comercial TRAMPOLIN PAGAMENTOS LTDA, CNPJ n.º
           33.030.337/0001-08, desde que tal PARCEIRO se obrigue e garanta respeitar as diretrizes
           legais de uso e tratamento de informações pessoais e dados sensíveis, na forma da lei.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           Todos os dados, informações e conteúdos sobre você podem ser considerados ativos no caso
           de negociações em que o NG.CASH fizer parte. Portanto, nos reservamos no direito de, por
           exemplo, incluir seus dados dentre os ativos da empresa caso esta venha a ser vendida,
           adquirida ou fundida com outra. Por meio desta Política você concorda e está ciente desta
           possibilidade.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           O NG.CASH se reserva no direito de fornecer seus dados e informações sobre você, incluindo
           interações suas, caso seja requisitado judicialmente para tanto, ato necessário para que a
           empresa esteja em conformidade com as leis nacionais, ou caso você autorize
           expressamente.
-        </span>
+        </p>
         <br />
         <h2>4. DIREITOS DOS TITULARES</h2>
         <br />
-        <span>
+        <p>
           Você sempre poderá optar em não divulgar seus dados para nós, mas tenha em mente que
           alguns desses dados podem ser necessários para utilizar as funcionalidades de nossas
           aplicações. Independente disso, você sempre possuirá direitos relativos à privacidade e à
           proteção dos seus dados pessoais.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           Dessa forma, abaixo resumimos todos os direitos que você tem sob as leis setoriais brasileiras
           relativas à proteção de dados e a Lei Geral de Proteção de Dados (“LGPD”), quais sejam:
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           4.1. Direito de acesso. Este direito permite que você possa requisitar e receber uma cópia
           dos dados pessoais que possuímos sobre você.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           4.2. Direito de retificação. Este direito permite que você, a qualquer momento, possa
           solicitar a correção e/ou retificação dos seus dados pessoais, caso identifique que alguns deles
           estão incorretos. Contudo, para ser efetivada essa correção, teremos que checar a validade
@@ -283,9 +283,9 @@ export default function PrivacyPolicy() {
           <a href="mailTo:suporte@ng.cash" target="_blank" rel="noreferrer">suporte@ng.cash</a>
           {' '}
           .
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           4.3. Direito de exclusão. Este direito permite que você possa nos solicitar a exclusão dos
           dados pessoais que possuímos sobre você. Todos os dados coletados serão excluídos de
           nossos servidores quando você assim requisitar ou quando estes não forem mais necessários
@@ -297,17 +297,17 @@ export default function PrivacyPolicy() {
           <a href="mailTo:suporte@ng.cash" target="_blank" rel="noreferrer">suporte@ng.cash</a>
           {' '}
           .
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           4.4. Direito de oposição ao processamento. Você também tem o direito de contestar onde
           e em que contexto estamos tratando seus dados pessoais para diferentes finalidades. Em
           determinadas situações, podemos demonstrar que temos motivos legítimos para tratar seus
           dados, os quais se sobrepõem aos seus direitos, caso, por exemplo, sejam essenciais para o
           fornecimento de nossas aplicações.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           4.5. Direito de solicitar anonimização, bloqueio ou eliminação. Este direito permite que
           você nos peça para suspender o processamento de seus dados pessoais nos seguintes
           cenários: (a) se você quiser que nós estabeleçamos a precisão dos dados; (b) quando você
@@ -315,21 +315,21 @@ export default function PrivacyPolicy() {
           necessário, para estabelecer, exercer ou defender reivindicações legais; ou (c) se você se opôs
           ao uso de seus dados, mas nesta hipótese precisamos verificar se temos motivos legítimos
           para usá-los.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           4.6. Direito à portabilidade. Forneceremos a você, ou a terceiros que você escolheu, seus
           dados pessoais em formato estruturado e interoperável.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           4.7. Direito de retirar o seu consentimento. Você tem o direito de retirar o seu
           consentimento em relação aos termos desta Política de Privacidade. No entanto, isso não
           afetará a legalidade de qualquer processamento realizado anteriormente. Se você retirar o
           seu consentimento, talvez não possamos fornecer determinados serviços.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           4.8. Direito a revisão de decisões automatizadas. Você também tem o direito de solicitar
           a revisão de decisões tomadas unicamente com base em tratamento automatizado de seus
           dados pessoais que afetem seus interesses, incluídas as decisões destinadas a definição de
@@ -340,44 +340,44 @@ export default function PrivacyPolicy() {
           divulgados a qualquer pessoa que não tenha direito de recebê-los. Podemos também
           contatá- lo para obter mais informações em relação à sua solicitação, a fim de acelerar nossa
           resposta.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           Tentamos responder a todas as solicitações legítimas dentro de 5 dias úteis. Ocasionalmente,
           pode levar mais de 5 dias se sua solicitação for particularmente complexa ou se você tiver
           feito várias solicitações. Neste caso, iremos comunicá-lo e mantê-lo atualizado sobre o
           andamento da sua solicitação.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           Caso Você tenha alguma dúvida sobre essas questões e sobre como você pode exercer esses
           direitos, fique à vontade para entrar em contato conosco no e-mail
           {' '}
           <a href="mailTo:suporte@ng.cash" target="_blank" rel="noreferrer">suporte@ng.cash</a>
           {' '}
           .
-        </span>
+        </p>
         <br />
         <h2>5. SEGURANÇA DAS INFORMAÇÕES</h2>
         <br />
-        <span>
+        <p>
           Todos os seus dados são confidenciais e somente as pessoas com as devidas autorizações
           terão acesso a eles. Qualquer uso destes estará de acordo com a presente Política. O NG.CASH
           empreenderá todos os esforços razoáveis de mercado para garantir a segurança dos nossos
           sistemas e dos seus dados. Nossos servidores estão localizados em diferentes locais para
           garantir estabilidade e segurança, e somente podem ser acessados por meio de canais de
           comunicação previamente autorizados.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           Todas as suas informações serão, sempre que possível, criptografadas, caso não inviabilizem
           o seu uso pela plataforma. A qualquer momento você poderá requisitar cópia dos seus dadosarmazenados em nossos sistemas. Manteremos os dados e informações somente até quando
           estas forem necessárias ou relevantes para as finalidades descritas nesta Política, ou em caso
           de períodos pré-determinados por lei, ou até quando estas forem necessárias para a
           manutenção de interesses legítimos do NG.CASH.
-        </span>
+        </p>
         <br />
-        <span>
+        <p>
           O NG.CASH considera a sua privacidade algo extremamente importante e fará tudo que
           estiver ao alcance para protegê-la. Todavia, não temos como garantir que todos os dados e
           informações sobre você em nossa plataforma estarão livres de acessos não autorizados,
@@ -387,27 +387,27 @@ export default function PrivacyPolicy() {
           compromete a notificar o NG.CASH imediatamente, através de meio seguro, a respeito de
           qualquer uso não autorizado de sua conta, bem como o acesso não autorizado por terceiros
           a esta.
-        </span>
+        </p>
         <br />
         <h2>6. ATUALIZAÇÕES DA POLÍTICA DE PRIVACIDADE</h2>
         <br />
-        <span>
+        <p>
           O NG.CASH se reserva no direito de alterar essa Política quantas vezes forem necessárias,
           visando fornecer a você mais segurança, conveniência, e melhorar cada vez mais a sua
           experiência. É por isso que é muito importante acessar nossa Política periodicamente. Para
           facilitar, indicamos no início do documento a data da última atualização. Caso sejam feitas
           alterações relevantes que ensejem novas autorizações suas, publicaremos uma nova política
           de privacidade, sujeita novamente ao seu consentimento.
-        </span>
+        </p>
         <br />
         <h2>7. LEI APLICÁVEL</h2>
         <br />
-        <span>
+        <p>
           Este documento é regido e deve ser interpretado de acordo com as leis da República
           Federativa do Brasil. Fica eleito o Foro da Comarca de Rio de Janeiro, Rio de Janeiro, como o
           competente para dirimir quaisquer questões porventura oriundas do presente documento,
           com expressa renúncia a qualquer outro, por mais privilegiado que seja.
-        </span>
+        </p>
       </document>
     </main>
   );
