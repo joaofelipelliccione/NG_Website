@@ -52,7 +52,10 @@ export default function PrivacyPolicy() {
         </ol>
         <br />
         <p>
-          Este documento deve ser lido em conjunto com os nossos Termos de Uso, que contém uma visão geral da nossa carteira digital. Caso
+          Este documento deve ser lido em conjunto com os nossos
+          {' '}
+          <a href="/documents/ng_terms-of-use.pdf" target="_blank" rel="noreferrer">Termos de Uso</a>
+          , que contém uma visão geral da nossa carteira digital. Caso
           tenha dúvidas ou precise tratar de qualquer assunto relacionado a esta Política, entre em
           contato conosco através do e-mail
           {' '}
@@ -212,7 +215,11 @@ export default function PrivacyPolicy() {
         <br />
         <p>
           O NG.CASH se reserva no direito de monitorar toda a plataforma, principalmente para
-          assegurar que as regras descritas em nosso Termos de Uso estão sendo observadas, ou ainda
+          assegurar que as regras descritas em nosso
+          {' '}
+          <a href="/documents/ng_terms-of-use.pdf" target="_blank" rel="noreferrer">Termos de Uso</a>
+          {' '}
+          estão sendo observadas, ou ainda
           se não há violação ou abuso das leis aplicáveis.
         </p>
         <br />
@@ -220,7 +227,11 @@ export default function PrivacyPolicy() {
         <br />
         <p>
           O NG.CASH se reserva no direito de excluir determinado usuário, independente do tipo que
-          for, caso a presente Política ou os Termos de Uso não sejam respeitados. Como prezamos
+          for, caso a presente Política ou os
+          {' '}
+          <a href="/documents/ng_terms-of-use.pdf" target="_blank" rel="noreferrer">Termos de Uso</a>
+          {' '}
+          não sejam respeitados. Como prezamos
           pelo bom relacionamento com os usuários, reconhecemos que têm o direito de buscar
           entender os motivos e até contestá-los, o que pode ser feito pelo seguinte e-mail:
           {' '}
